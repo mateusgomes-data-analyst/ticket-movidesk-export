@@ -24,7 +24,6 @@ Por se tratar de um software utilizado em produção por uma empresa real, minim
 ## O que este script **não** faz
 
 - Não usa nomes de empresas, produtos ou pessoas
-- Não inclui lógica de “clientes em adoção” ou KPIs internos
 - Não interpreta campos customizados (eles vão em JSON bruto na coluna `customFieldValues`)
 - Não altera datas, tempos, status ou valores numéricos da API
 
@@ -228,11 +227,6 @@ Você pode copiar apenas esta pasta para outro repositório Git. Não há depend
 
 ---
 
-## Licença sugerida
-
-Se for publicar, recomenda-se MIT (ou a licença do repositório pai).
-
----
 
 ## Referência
 
