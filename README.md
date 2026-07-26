@@ -5,7 +5,11 @@ Script de exportacao de dados do movidesk
 
 Script genérico e autocontido para consultar a [API pública de tickets do Movidesk](https://atendimento.movidesk.com/kb/pt-br/article/256/api-tickets) e exportar o resultado para arquivo.
 
-Não aplica regras de negócio. Não filtra por origem/status (além do período). Não calcula indicadores. Apenas busca os tickets no intervalo informado e grava uma tabela.
+Por ser um software utilizado em produção, minimizei o máximo de códigos para que pudesse ser disponibilizador. Portanto, essa versão:
+1. Não aplica regras de negócio.
+2. Não filtra por origem/status (além do período).
+3. Não calcula indicadores.
+4. Apenas busca os tickets no intervalo informado e grava uma tabela.
 
 ---
 
